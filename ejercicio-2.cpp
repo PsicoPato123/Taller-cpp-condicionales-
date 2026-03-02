@@ -13,7 +13,7 @@ int main (){
    
    if ((a+b>c) && (a+c>b) && (b+c>a)) {
     std::cout<<"Tu triangulo es valido :D \n";
-    std::cout<<"¿De que tipo es tu triangulo?\n"
+    std::cout<<"¿De que tipo es tu triangulo?\n";
        if (a == b && b == c){
             std::cout<<"Tu triangulo es equilatero\n";
         }
@@ -28,4 +28,5 @@ int main (){
     std::cout<<"Ese triangulo no existe :c";
    }
     return 0;
+
 }   
